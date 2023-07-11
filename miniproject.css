@@ -1,0 +1,129 @@
+img{
+    margin-left: 9px;
+    width:1498px;
+
+}
+nav{
+    
+    background-color: blue;
+    width: 98vw;
+    height: 9vh;
+    margin-left: 9px;
+}
+
+    #navcontent{
+        display: flex;
+    justify-items: center;
+        margin: 12x;
+        list-style: none;
+        margin-top: 1vh;
+    }
+    #navcontent li{
+        margin: 30px;
+        color: white;
+    }
+    #navcontent li a{
+     color: white;
+     text-decoration: none;
+     margin-left: 13vh;
+    }
+    .container{
+background-color: lightgreen;
+margin-top: 9vh;
+height: 24vh;
+margin-top: -2vh;
+width: 202vh;
+margin-left: 1vh;
+display: flex;
+flex-wrap:wrap;
+
+    }
+    .nine h1{
+       
+    margin-left: 20px;
+    font-size: 5vh;
+    }
+    .subjectnine a{
+        text-decoration: none;
+    }
+    .subjectnine button{
+        margin-left: 14vh;
+        margin-right: 9vh;
+        height: 6vh;
+        width: 16vh;
+        border-radius: 2vh;
+        font-size: 2vh;
+        background-color: lightpink;
+        color: black;
+    }
+    .subjectten a{
+        text-decoration: none;
+    }
+    .subjectten button{
+        margin-left: 14vh;
+        margin-right: 9vh;
+        height: 6vh;
+        width: 16vh;
+        border-radius: 2vh;
+        font-size: 2vh;
+        background-color:lightpink;
+        color: black;
+
+    }
+    .tenth h1{
+       
+        margin-left: 20px;
+        font-size: 5vh;
+        }
+        
+        .eleventh h1{
+            margin-left: 20px;
+            font-size: 5vh;
+            }
+            
+            .subjecteleven a{
+                text-decoration: none;
+            }
+            .container1{
+                background-color:lightgreen;
+                height: 35vh;
+                margin-top: -2vh;
+                width: 202vh;
+                margin-left: 1vh;
+                
+                    }
+                    .subjecteleven button{
+                        margin-left: 12vh;
+                        margin-right: 9vh;
+                        height: 6vh;
+                        width: 17vh;
+                        border-radius: 2vh;
+                        font-size: 2vh;
+                        background-color:lightpink;
+                        color: black;
+                        /* margin-top: 1vh; */
+                        margin-bottom: 3vh;
+                
+                    }
+                    .subjecttwelwve a{
+                        text-decoration: none;
+                    }
+                    .subjecttwelwve button{
+                        margin-left: 12vh;
+                        margin-right: 9vh;
+                        height: 6vh;
+                        width: 17vh;
+                        border-radius: 2vh;
+                        font-size: 2vh;
+                        background-color:lightpink;
+                        color: black;
+                        /* margin-top: 1vh; */
+                        margin-bottom: 3vh;
+                    }
+                    .twelveth h1{
+       
+                        margin-left: 20px;
+                        font-size: 5vh;
+                        }
+                        
+                        

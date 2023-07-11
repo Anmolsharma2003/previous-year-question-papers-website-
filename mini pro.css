@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+img{
+    margin-left: 9px;
+    width: 1505px;
+
+}
+nav{
+    background-color:rgb(71, 187, 234);
+    width: 98vw;
+    height: 9vh;
+    margin-left: 9px;
+}
+
+#navcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center; 
+    margin: 15vh;
+    list-style: none;
+    margin-top: 0vh;
+}
+#navcontent li{
+    
+    margin: 30px;
+    color: white;
+    margin-left: 13vh;
+    font-size: large;
+    font-weight: bold;
+}
+#navcontent li a{
+ color: white;
+ text-decoration: none;
+ margin-left: 13vh;
+ font-size: large;
+ font-weight:bold;
+}
+#navcontent li :hover{
+    color: black;
+}
+#navcontent :hover{
+    color: black;
+}
+.container{
+    margin-left: 9px;
+    background-color: rgb(231, 225, 225);
+    height: 270vh;
+    width: 205vh;
+    margin-top: -1vh;
+  
+}
+.container h1{
+    margin-top: 2vh;
+    padding: 1vh;
+    margin-left: 2vh;
+
+}
+.box1{
+    display: flex;
+    margin: 2vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.science{
+   background-image: url(scienc.png);
+   background-repeat: no-repeat;
+   background-size:contain;
+    background-color: #84CB74;
+    height: 32vh;
+    width: 27vh;
+    border-radius: 3vh;
+}
+.physics{
+    background-image: url(physics.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color: #84CB74;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+.sst{
+    background-image: url(social\ science.jpg);
+   background-repeat: no-repeat;
+   background-size:contain;
+    background-color:#5DB685;
+    height: 32vh;
+    width: 27vh;
+    border-radius: 3vh;
+}
+.maths{
+    background-image: url(maths.png);
+   background-repeat: no-repeat;
+   background-size:contain;
+    background-color:#3FC1D9;
+    height: 32vh;
+    width: 27vh;
+    border-radius: 3vh;
+}
+.english{
+    background-image: url(english.png);
+    background-size: contain;
+    background-color: yellowgreen;
+    height: 32vh;
+    width: 27vh;
+    border-radius: 3vh;
+}
+.hindi{
+    background-image: url(hindi.png);
+    background-size: contain;
+    background-color:palevioletred;
+    height: 32vh;
+    width: 27vh;
+    border-radius: 3vh;
+    /* background-image: url(books.jpg); */
+}
+.ten{
+    margin-top: 6vh;
+}
+.science a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.sst a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.maths a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.english a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.hindi a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+
+.science button{
+    border: #84CB74;
+    margin: 6vh;
+    margin-top: 27vh;
+    height: 5vh;
+    width: 16vh;
+    border-radius: 2vh;
+    background-color:#84CB74;
+}
+.sst button{
+    border: #5DB685;
+    margin: 6vh;
+    margin-top: 27vh;
+    height: 5vh;
+    width: 16vh;
+    border-radius: 2vh;
+    background-color:#5DB685;
+}
+.maths button{
+    border: #3FC1D9;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#3FC1D9;
+}
+.english button{
+    border: yellowgreen;
+    margin: 6vh;
+    margin-top: 27vh;
+    height: 5vh;
+    width: 16vh;
+    border-radius: 2vh;
+    background-color:yellowgreen;
+}
+.hindi button{
+    border: palevioletred;
+    margin: 6vh;
+    margin-top: 27vh;
+    height: 5vh;
+    width: 16vh;
+    border-radius: 2vh;
+    background-color: palevioletred;
+}
+.eleven{
+    margin-top: 6vh;
+}
+.chemistry{
+    background-image: url(chemistry.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color:#F9AE3C;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+ .biology{
+    background-image: url(biology.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color: #D584AC;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+ .accountancy{
+    background-image: url(accountancy.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color: #DE9539;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+ .economics{
+    background-image: url(economics.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color: #7D5494;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+ .bst{
+        background-image: url(business.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+         background-color: #837919;
+         height: 32vh;
+         width: 27vh;
+         border-radius: 3vh;
+ }
+ .physical{
+    background-image: url(physical.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+     background-color: #FF8356;
+     height: 32vh;
+     width: 27vh;
+     border-radius: 3vh;
+ }
+ .box2{
+    display: flex;
+    margin-block-start: 9vh;
+    justify-content: space-around;
+    margin: 2vh;
+    flex-wrap: wrap;
+
+ }
+ .physics button{
+    border: #84CB74;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#84CB74;
+ }
+ .physics a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.chemistry button{
+    border: #F9AE3C;;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#F9AE3C;;
+ }
+ .chemistry a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.biology button{
+    border: #D584AC;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#D584AC;
+ }
+ .biology a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.accountancy button{
+    border:#DE9539;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#DE9539;
+ }
+ .accountancy a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.economics button{
+    border: #7D5494;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#7D5494;
+ }
+ .economics a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.bst button{
+    border: #837919;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#837919;
+ }
+ .bst a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+
+.physical button{
+    border: #FF8356;
+    margin: 6vh;
+    margin-top: 27vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 19vh;
+    border-radius: 2vh;
+    background-color:#FF8356;
+ }
+ .physical a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.box3{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 2vh;
+    
+
+ }
+ .commerce{
+    margin-top: 6vh;
+}
+
+
+.box1 button  :hover{
+    color: white;
+}
+.box2 button  :hover{
+    color: white;
+}
+.box3 button  :hover{
+    color: white;
+}
+.container2{
+    background-color:rgb(71, 187, 234);
+    height: 22vh;
+    width: 205vh;
+    margin-top: 0.1vh;
+    margin-left: 1.2vh;
+}
+.container2 p{
+    text-align: center;
+    padding: 2vh;
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+    
+}
+.content4{
+    background-color: green;
+    height: 12vh;
+    width: 98vw;
+    display:flex ;
+    justify-content: center;
+    
+}
+ .content4 button{
+    height: 45px;
+    width: 45px; 
+     border-radius: 1vh;
+    margin: 3vh;
+    margin-top: 1vh;
+ }
+@media(min-width:640px){
+    .box1{
+         flex-direction: row;
+    }
+    .box2{
+        flex-direction: row;
+   }
+   .box3{
+    flex-direction: row;
+}
+.box4{
+    flex-direction: row;
+}
+
+}
+@media(min-width:640px){
+    .box1{
+         flex-direction: row;
+    }
+}
